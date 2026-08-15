@@ -1,43 +1,65 @@
-# FinanceTrack
+# 💰 FinanceTrack
 
-FinanceTrack é uma aplicação web simples para controle financeiro pessoal, desenvolvida principalmente com JavaScript.
+Aplicação web para gerenciamento de finanças pessoais, desenvolvida com JavaScript, HTML e CSS.
 
-O projeto permite registrar receitas e despesas, acompanhar o saldo atual e visualizar um resumo das movimentações financeiras.
+O FinanceTrack permite registrar receitas e despesas, acompanhar o saldo disponível e visualizar os gastos por categoria através de uma interface simples e responsiva.
 
-## Funcionalidades
+## 🚀 Aplicação online
 
-- Adicionar receitas e despesas
+Acesse o FinanceTrack:
+
+https://levimesquita023-hash.github.io/FinanceTrack/
+
+## 📸 Preview
+
+![FinanceTrack Preview](./assets/financetrack-preview.png)
+
+## ✨ Funcionalidades
+
+- Cadastro de receitas e despesas
 - Cálculo automático do saldo
-- Cálculo do total de receitas
-- Cálculo do total de despesas
-- Categorias de transações
+- Total de receitas e despesas
+- Organização das transações por categoria
+- Resumo de gastos por categoria
 - Busca de transações
 - Filtro por tipo de movimentação
 - Exclusão de transações
-- Resumo de despesas por categoria
-- Modo escuro
-- Armazenamento de dados com LocalStorage
+- Persistência de dados com LocalStorage
+- Dark Mode
 - Layout responsivo
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript
-- LocalStorage
+- Web Storage API (LocalStorage)
+- Git
+- GitHub
+- GitHub Pages
 
-## Como executar o projeto
+## 🧠 Conceitos aplicados
 
-1. Clone ou baixe este repositório.
-2. Abra a pasta do projeto.
-3. Abra o arquivo `index.html` no navegador.
+Durante o desenvolvimento foram utilizados conceitos como:
 
-Também é possível utilizar a extensão Live Server no Visual Studio Code.
+- Manipulação do DOM
+- Event Listeners
+- Arrays e objetos
+- Funções
+- Template Literals
+- `filter()`
+- `reduce()`
+- `forEach()`
+- Renderização dinâmica
+- Persistência de dados no navegador
+- Formatação monetária com `Intl.NumberFormat`
 
-## Estrutura do projeto
+## 📁 Estrutura
 
 ```text
 FinanceTrack/
+├── assets/
+│   └── financetrack-preview.png
 ├── index.html
 ├── style.css
 ├── script.js

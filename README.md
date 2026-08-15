@@ -12,8 +12,7 @@ https://levimesquita023-hash.github.io/FinanceTrack/
 
 ## 📸 Preview
 
-![FinanceTrack Preview](./assets/financetrack-preview.png)
-
+![FinanceTrack Preview](assets/financetrack-preview.png)
 ## ✨ Funcionalidades
 
 - Cadastro de receitas e despesas
